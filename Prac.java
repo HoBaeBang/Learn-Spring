@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Prac {
+    public static void subtract (int num1,int num2){
+        int sub = num1 -num2;
+        System.out.println(sub);
+    }
     public static void main(String[] args){
         String name = "방호배";
         int myAge = 24;
@@ -29,6 +33,6 @@ public class Prac {
         courseList.add(course4);
         courseList.add(course5);
         System.out.println(courseList);
-
+        subtract(5,1);
     }
 }
